@@ -48,7 +48,7 @@ function App() {
       console.log(`${amount} Coins are sent to ${sendToAccount}`);
     }
   };
-  // 0x77eB09f38B85daa830f2E34109F87Ff77E06dA25
+
   const fetchGreeting = async () => {
     if (typeof window.ethereum !== 'undefined') {
       const provider = new ethers.providers.Web3Provider(window.ethereum);
